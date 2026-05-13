@@ -19,5 +19,6 @@ Git CLI (Command Line Interface) adalah cara menjalankan perintah git dengan men
 | Kontrol dan Fitur | + **Penuh.** Memberikan akses ke seluruh perintah Git, sangat kuat untuk menangani error kompleks atau otomatisasi (scripting).                                                          | - **Dasar.** Hanya menyediakan fitur-fitur yang paling sering digunakan; perintah tingkat lanjut sering kali tidak tersedia. |
 | Efisiensi         | + **Sangat Cepat:** Jika sudah memahami fundamentalnya, mengetik perintah (dan menggabungkan ke perintah lain dalam satu baris) terasa jauh lebih cepat dibandingkan klik-klik bertahap. | = **Menengah:** Masih bergantung terhadap klik-klik bertahap, namun ideal jika belum memahami alur kerja dasarnya.           |
 | Kurva Belajar     | - **Sulit:** Harus menghafal dan memahami perintah teks (syntax) dan membayangkan alur kerja sendiri tanpa bantuan tombol visual.                                                        | + **Mudah:** Sangat ramah pemula karena prosesnya tinggal klik-klik saja dan semua perubahan terlihat jelas di layar.        |
+
 **Kesimpulannya:** Git CLI menawarkan kompabilitas dan kontrol yang sangat fleksibel (dapat bekerja di semua provider Git), namun memiliki kurva belajar yang sulit dibandingkan aplikasi GitHub Desktop.
 
