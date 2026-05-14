@@ -2,4 +2,4 @@
 
 # Menghubungkan git ke GitHub
 
-#### > [Perintah Dasar Git](4-git-basic-command)
+#### > [Perintah Dasar Git](4-git-basic-command.md)

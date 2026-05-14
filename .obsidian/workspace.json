@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4-git-basic-command.md",
+                "file": "1-fundamental-git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4-git-basic-command"
+              "title": "1-fundamental-git"
             }
           },
           {
@@ -214,15 +214,15 @@
   },
   "active": "fbe3d9becba7d743",
   "lastOpenFiles": [
-    "3-connect-account.md",
-    "2-unix-command.md",
     "1a-git-installation.md",
+    "2-unix-command.md",
+    "3-connect-account.md",
+    "4-git-basic-command.md",
     "1-fundamental-git.md",
     "assets/fig-aa7.jpg",
     "assets/fig-aa6.jpg",
     "assets/fig-aa5.jpg",
     "assets/fig-aa4.jpg",
-    "4-git-basic-command.md",
     "README.md",
     "assets/fig-aa3.jpg",
     "assets/fig-aa2.jpg",
