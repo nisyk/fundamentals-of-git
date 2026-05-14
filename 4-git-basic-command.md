@@ -1,4 +1,4 @@
-#### < [Menghubungkan git ke GitHub](3-connect-account.md)
+#### < [Menghubungkan git ke akun GitHub](3-connect-account.md)
 
 # Perintah Dasar Git
 Setelah memahami teori fundamental Git, saatnya langsung terjun ke mempraktikkan cara membuat directory "mesin-waktu" pertama. Kita akan mulai dengan membuat folder proyek baru dan menginisialisasi Git menggunakan terminal agar sistem siap melacak setiap perubahan. 
@@ -29,8 +29,7 @@ Buat folder baru dan masuk ke dalamnya menggunakan perintah UNIX yang telah dipe
 Langkah ini wajib dilakukan untuk membuat folder rahasia `.git` yang berfungsi sebagai pusat data.
 
 ```bash
-(base) [nisyk@arch proyek_pertama]$ git init
-Initialized empty Git repository in /home/nisyk/proyek_pertama/.git/
+(base) [nisyk@arch proyek_pertama]$ git init             
 ```
 
 **3. Membuat File & Cek Status** 
@@ -39,13 +38,8 @@ Buatlah sebuah file (misalnya file text baru) lalu periksa bagaimana Git mendete
 ```bash
 (base) [nisyk@arch proyek_pertama]$ touch halo.txt    # perintah membuat file
 
-(base) [nisyk@arch proyek_pertama]$ git status        # mengecek status git
-On branch master  
-Untracked files:  
- (use "git add <file>..." to include in what will be committed)  
-       halo.txt  
-  
-nothing added to commit but untracked files present (use "git add" to track)
+(base) [nisyk@arch proyek_pertama]$ git status        # cek status git
+
 # Sistem mendeteksi ada file baru, namun belum masuk ke Staging Area (dikategorikan sebagai Untracked files)
 ```
 
@@ -53,14 +47,11 @@ nothing added to commit but untracked files present (use "git add" to track)
 Proses ini memindahkan file ke "Meja Packing" untuk persiapan penyimpanan.
 
 ```bash
-(base) [nisyk@arch proyek_pertama]$ git add halo.txt   
+(base) [nisyk@arch proyek_pertama]$ git add halo.txt      
 # menambahkan halo.txt ke Staging Area
 
-(base) [nisyk@arch proyek_pertama]$ git status
-On branch master  
-Changes to be committed:  
- (use "git restore --staged <file>..." to unstage)  
-       new file:   halo.txt               
+(base) [nisyk@arch proyek_pertama]$ git status         # cek status git  
+
 # Sistem mendeteksi file baru yang sudah masuk ke Staging Area
 ```
 
@@ -68,9 +59,8 @@ Changes to be committed:
 Langkah ini mengunci perubahan secara permanen ke dalam "Gudang" (Repository).
 ```bash
 (base) [nisyk@arch proyek_pertama]$ git commit -m "commit pertama saya"  
-# input
-[main (root-commit) 7a2b3c4] commit pertama saya 1 file changed, 0 insertions(+), 0 deletions(-)                                         
-# output
+
+# Sistem mendeteksi perubahan file
 ```
 
 **6. Memeriksa Riwayat (git log)** 
@@ -78,8 +68,9 @@ Pastikan perubahan telah tercatat di dalam sistem database Git.
 
 ```bash
 (base) [nisyk@arch proyek_pertama]$ git log --oneline        # input
-7a2b3c4 commit pertama saya                            # output
+
+# Sistem memberikan data commit history
 ```
 (Cara keluar dari git log, adalah dengan menekan tombol 'q')
 
-
+#### > [Membuat dan mendownload repository di GitHub](5-making-github-repo.md)

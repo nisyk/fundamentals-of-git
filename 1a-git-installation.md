@@ -6,7 +6,6 @@ Untuk menginstall aplikasi yang diperlukan:
 - **Git**
 - **Visual Studio Code**
 Diperlukan step-by-step sebagai berikut *(Untuk Windows)*:
-![Step1](assets/fig-aa4.jpg)
 ![Step1](assets/fig-aa5.jpg)
 ![Step1](assets/fig-aa6.jpg)
 ![Step1](assets/fig-aa7.jpg)

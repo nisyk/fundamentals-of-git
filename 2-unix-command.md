@@ -60,4 +60,4 @@ Perintah ini mirip seperti ls, namun tree memberikan list file yang berasal dari
 
 > **⚠️ Catatan Penting:** Berbeda dengan sistem command Windows, sistem command UNIX tergolong case-sensitive. Jadi perhatikan nama dan kapitalisasi file/directory yang dituju. UNIX memberi pesan error jika kapitalisasinya salah, meskipun nama sudah benar. 
 > 	Contoh: FOLDER_BARU, harus diketik dengan FOLDER_BARU, bukan folder_baru
-#### > [Menghubungkan git ke GitHub](3-connect-account.md)
+#### > [Menghubungkan git ke akun GitHub](3-connect-account.md)
