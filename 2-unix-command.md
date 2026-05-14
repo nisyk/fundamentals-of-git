@@ -1,4 +1,4 @@
-#### [Fundamental Git](1-fundamental-git.md)
+#### < [Fundamental Git](1-fundamental-git.md)
 
 # Perintah UNIX
 Untuk menggunakan Git CLI, perlu tahu cara "berjalan" di dalam folder komputer menggunakan perintah teks, bukan klik mouse. Perintah-perintah dasar UNIX ini adalah bahasa standar untuk mengelola repository git (karena secara default git CLI menggunakan perintah UNIX, baik di Windows, macOS, dan Linux) dan server (VPS) dan merupakan keahlian wajib bagi seorang profesional agar bisa bekerja secara mandiri. Cukup pelajari beberapa kata kunci navigasi sederhana agar tidak tersesat di dalam terminal saat mengelola proyek. 
@@ -31,7 +31,7 @@ Perintah ini digunakan untuk masuk ke directory/folder yang ada di dalam directo
 ```bash
 (base) [nisyk@arch USER]$ cd FOLDER_RAHASIA_JANGAN_DIBUKA    # input
 (base) [nisyk@arch FOLDER_RAHASIA_JANGAN_DIBUKA]$            # output
-```
+Instalasi```
 
 ### mkdir
 Perintah ini digunakan untuk membuat directory/folder baru yang ada di dalam directory/folder yang dioperasikan. Ibarat meminta ke sistem "Buatkan aku ruangan baru", dan sistem membuatkan ruang baru.
@@ -58,6 +58,6 @@ Perintah ini mirip seperti ls, namun tree memberikan list file yang berasal dari
 └── PHOTO_BURUNG.jpg                              
 ```
 
-> **Catatan Penting:** Berbeda dengan sistem command Windows, sistem command UNIX tergolong case-sensitive. Jadi perhatikan nama dan kapitalisasi file/directory yang dituju. UNIX memberi pesan error jika kapitalisasinya salah, meskipun nama sudah benar. 
+> **⚠️ Catatan Penting:** Berbeda dengan sistem command Windows, sistem command UNIX tergolong case-sensitive. Jadi perhatikan nama dan kapitalisasi file/directory yang dituju. UNIX memberi pesan error jika kapitalisasinya salah, meskipun nama sudah benar. 
 > 	Contoh: FOLDER_BARU, harus diketik dengan FOLDER_BARU, bukan folder_baru
-#### > [Perintah Dasar Git](3-git-basic-command.md)
+#### > [Menghubungkan git ke GitHub](3-connect-account)

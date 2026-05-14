@@ -43,7 +43,11 @@ Dalam dunia Git CLI, kamu akan menggerakkan file melalui tiga daerah ini dengan 
 1. **Edit File** (di Working Directory).
 2. `git add` : Memindahkan file dari Working Directory ke **Staging Area**.
 3. `git commit -m "pesan"` : Memindahkan file dari Staging Area ke **Repository** (Permanen).
-> **Catatan Penting:** Kesalahan yang paling umum adalah lupa melakukan `git add` dan langsung melakukan `git commit`. Hasilnya, tidak akan ada file yang masuk ke repository `.git`. Cara pamungkas agar mencegah kesalahan ini adalah menggabungkan kedua perintah menjadi satu baris: `git add . && git commit -m "pesan"`
+> **⚠️ Catatan Penting:** Kesalahan yang paling umum adalah lupa melakukan `git add` dan langsung melakukan `git commit`. Hasilnya, tidak akan ada file yang masuk ke repository `.git`. Cara pamungkas agar mencegah kesalahan ini adalah menggabungkan kedua perintah menjadi satu baris: `git add . && git commit -m "pesan"`
 
+### Instalasi Git
+Buka [Instalasi Git](1a-git-installation.md) untuk menginstall aplikasi yang diperlukan:
+- Git
+- Visual Studio Code
 
 #### > [Perintah UNIX](2-unix-command.md)
