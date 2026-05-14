@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "551e417e2b756a81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,9 +212,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "fbe3d9becba7d743",
+  "active": "551e417e2b756a81",
   "lastOpenFiles": [
-    "Untitled.md",
-    "README.md"
+    "fundamental-git.md",
+    "README.md",
+    "fundamenta-git.md"
   ]
 }
