@@ -21,7 +21,7 @@ Dengan cara kerja seperti ini, sistem git sangat umum ditemukan dalam workflow p
 Git dapat dihubungkan ke berbagai sektor seperti Docker, Linux (dalam server maupun SBC), dan mikrokontroller (via Serial communication) sehingga dapat membuat sistem yang sangat canggih dengan git sebagai salah satu jembatannya.
 
 ## Daerah Kerja Git
-Git tidak langsung menyimpan semua yang kamu ketik secara otomatis. Bayangkan Git memiliki tiga ruangan berbeda untuk memproses file:
+Git tidak langsung menyimpan semua yang kamu ketik secara otomatis. Bayangkan Git memiliki tiga ruangan berbeda (industri packaging/logistik) untuk memproses file:
 
 ![Daerah Kerja Git](assets/fig-aa3.jpg)
 
@@ -37,3 +37,12 @@ Git tidak langsung menyimpan semua yang kamu ketik secara otomatis. Bayangkan Gi
 	Inilah tempat Git menyimpan semua sejarah perubahanmu selamanya (tersimpan di folder rahasia bernama `.git`).
 	- **Analogi:** Kardus tadi sudah kamu lakban rapat, kamu beri label (Pesan Commit), dan kamu masukkan ke dalam brankas besi.
 	- **Status:** Sekali file masuk ke sini (setelah proses _Commit_), kamu punya "Snapshot" atau titik aman yang bisa kamu panggil lagi kapan saja kalau di masa depan ada error.
+
+### Alur Kerja Git berdasarkan Daerah Kerja 
+Dalam dunia Git CLI, kamu akan menggerakkan file melalui tiga daerah ini dengan perintah berikut:
+1. **Edit File** (di Working Directory).
+2. `git add` : Memindahkan file dari Working Directory ke **Staging Area**.
+3. `git commit -m "pesan"` : Memindahkan file dari Staging Area ke **Repository** (Permanen).
+> **Catatan Penting:** Kesalahan yang paling umum adalah lupa melakukan `git add` dan langsung melakukan `git commit`. Hasilnya, tidak akan ada file yang masuk ke repository `.git`. Cara pamungkas agar mencegah kesalahan ini adalah menggabungkan kedua perintah menjadi satu baris: `git add . && git commit -m "pesan"`
+
+
