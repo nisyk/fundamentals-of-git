@@ -21,3 +21,19 @@ Dengan cara kerja seperti ini, sistem git sangat umum ditemukan dalam workflow p
 Git dapat dihubungkan ke berbagai sektor seperti Docker, Linux (dalam server maupun SBC), dan mikrokontroller (via Serial communication) sehingga dapat membuat sistem yang sangat canggih dengan git sebagai salah satu jembatannya.
 
 ## Daerah Kerja Git
+Git tidak langsung menyimpan semua yang kamu ketik secara otomatis. Bayangkan Git memiliki tiga ruangan berbeda untuk memproses file:
+
+![Daerah Kerja Git](assets/fig-aa3.jpg)
+
+1. **Working Directory (Lantai Kerja):**
+	Ini adalah folder di komputermu tempat kamu bekerja saat ini—tempat kamu membuat, mengedit, atau menghapus file.
+	- **Analogi:** Kamu sedang membongkar barang-barang di lantai kamar. Semuanya masih berantakan dan Git belum "mengunci" perubahan tersebut.
+	- **Status:** File di sini sifatnya masih bisa berubah-ubah dan belum masuk ke sistem keamanan Git.
+2. **Staging Area (Zona Transit / Meja Packing):**
+	Ini adalah area unik yang cuma ada di Git. Di sini, kamu **memilih** file mana saja dari "Lantai Kerja" yang sudah siap untuk disimpan permanen.
+	- **Analogi:** Kamu mulai memasukkan barang-barang pilihanmu ke dalam kardus. Barangnya sudah di dalam kotak, tapi kotaknya belum kamu lakban dan belum kamu kirim ke gudang.
+	- **Kenapa penting?** Karena terkadang kita mengedit 10 file, tapi baru mau menyimpan 2 file saja. Staging area adalah tempat kita memisahkan itu.
+3. **Repository (Gudang / Brankas):**
+	Inilah tempat Git menyimpan semua sejarah perubahanmu selamanya (tersimpan di folder rahasia bernama `.git`).
+	- **Analogi:** Kardus tadi sudah kamu lakban rapat, kamu beri label (Pesan Commit), dan kamu masukkan ke dalam brankas besi.
+	- **Status:** Sekali file masuk ke sini (setelah proses _Commit_), kamu punya "Snapshot" atau titik aman yang bisa kamu panggil lagi kapan saja kalau di masa depan ada error.
