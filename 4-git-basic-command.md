@@ -21,24 +21,24 @@ Buat folder baru dan masuk ke dalamnya menggunakan perintah UNIX yang telah dipe
 
 
 ```bash
-(base) [nisyk@arch ~]$ mkdir proyek_pertama
-(base) [nisyk@arch ~]$ cd proyek_pertama
+$ mkdir proyek_pertama
+$ cd proyek_pertama
 ```
 
 **2. Inisialisasi Git (git init)** 
 Langkah ini wajib dilakukan untuk membuat folder rahasia `.git` yang berfungsi sebagai pusat data.
 
 ```bash
-(base) [nisyk@arch proyek_pertama]$ git init             
+$ git init             
 ```
 
 **3. Membuat File & Cek Status** 
 Buatlah sebuah file (misalnya file text baru) lalu periksa bagaimana Git mendeteksinya.
 
 ```bash
-(base) [nisyk@arch proyek_pertama]$ touch halo.txt    # perintah membuat file
+$ touch halo.txt    # perintah membuat file
 
-(base) [nisyk@arch proyek_pertama]$ git status        # cek status git
+$ git status        # cek status git
 
 # Sistem mendeteksi ada file baru, namun belum masuk ke Staging Area (dikategorikan sebagai Untracked files)
 ```
@@ -47,10 +47,10 @@ Buatlah sebuah file (misalnya file text baru) lalu periksa bagaimana Git mendete
 Proses ini memindahkan file ke "Meja Packing" untuk persiapan penyimpanan.
 
 ```bash
-(base) [nisyk@arch proyek_pertama]$ git add halo.txt      
+$ git add halo.txt      
 # menambahkan halo.txt ke Staging Area
 
-(base) [nisyk@arch proyek_pertama]$ git status         # cek status git  
+$ git status         # cek status git  
 
 # Sistem mendeteksi file baru yang sudah masuk ke Staging Area
 ```
@@ -58,7 +58,7 @@ Proses ini memindahkan file ke "Meja Packing" untuk persiapan penyimpanan.
 **5. Menyimpan ke Repository (git commit)**
 Langkah ini mengunci perubahan secara permanen ke dalam "Gudang" (Repository).
 ```bash
-(base) [nisyk@arch proyek_pertama]$ git commit -m "commit pertama saya"  
+$ git commit -m "commit pertama saya"  
 
 # Sistem mendeteksi perubahan file
 ```
@@ -67,7 +67,7 @@ Langkah ini mengunci perubahan secara permanen ke dalam "Gudang" (Repository).
 Pastikan perubahan telah tercatat di dalam sistem database Git.
 
 ```bash
-(base) [nisyk@arch proyek_pertama]$ git log --oneline        # input
+$ git log --oneline        # input
 
 # Sistem memberikan data commit history
 ```
