@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-fundamental-git.md",
+                "file": "5-making-github-repo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-fundamental-git"
+              "title": "5-making-github-repo"
             }
           },
           {
@@ -214,14 +214,14 @@
   },
   "active": "fbe3d9becba7d743",
   "lastOpenFiles": [
-    "README.md",
-    "1-fundamental-git.md",
-    "2-unix-command.md",
-    "3-connect-account.md",
-    "4-git-basic-command.md",
-    "5-making-github-repo.md",
     "6-push-n-pull-repository.md",
+    "5-making-github-repo.md",
+    "3-connect-account.md",
+    "2-unix-command.md",
     "1a-git-installation.md",
+    "4-git-basic-command.md",
+    "1-fundamental-git.md",
+    "README.md",
     "assets/fig-ae1.jpg",
     "assets/fig-ae2.jpg",
     "assets/fig-ae3.jpg",

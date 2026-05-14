@@ -21,24 +21,24 @@ Buat folder baru dan masuk ke dalamnya menggunakan perintah UNIX yang telah dipe
 
 
 ```bash
-$ mkdir proyek_pertama
-$ cd proyek_pertama
+mkdir proyek_pertama
+cd proyek_pertama
 ```
 
 **2. Inisialisasi Git (git init)** 
 Langkah ini wajib dilakukan untuk membuat folder rahasia `.git` yang berfungsi sebagai pusat data.
 
 ```bash
-$ git init             
+git init             
 ```
 
 **3. Membuat File & Cek Status** 
 Buatlah sebuah file (misalnya file text baru) lalu periksa bagaimana Git mendeteksinya.
 
 ```bash
-$ touch halo.txt    # perintah membuat file
+touch halo.txt    # perintah membuat file
 
-$ git status        # cek status git
+git status        # cek status git
 
 # Sistem mendeteksi ada file baru, namun belum masuk ke Staging Area (dikategorikan sebagai Untracked files)
 ```
@@ -47,10 +47,9 @@ $ git status        # cek status git
 Proses ini memindahkan file ke "Meja Packing" untuk persiapan penyimpanan.
 
 ```bash
-$ git add halo.txt      
-# menambahkan halo.txt ke Staging Area
+git add halo.txt      # menambahkan halo.txt ke Staging Area
 
-$ git status         # cek status git  
+git status            # cek status git  
 
 # Sistem mendeteksi file baru yang sudah masuk ke Staging Area
 ```
@@ -58,7 +57,7 @@ $ git status         # cek status git
 **5. Menyimpan ke Repository (git commit)**
 Langkah ini mengunci perubahan secara permanen ke dalam "Gudang" (Repository).
 ```bash
-$ git commit -m "commit pertama saya"  
+git commit -m "commit pertama saya"      
 
 # Sistem mendeteksi perubahan file
 ```
@@ -67,7 +66,7 @@ $ git commit -m "commit pertama saya"
 Pastikan perubahan telah tercatat di dalam sistem database Git.
 
 ```bash
-$ git log --oneline        # input
+git log --oneline        
 
 # Sistem memberikan data commit history
 ```
