@@ -20,3 +20,4 @@ Dengan cara kerja seperti ini, sistem git sangat umum ditemukan dalam workflow p
 
 Git dapat dihubungkan ke berbagai sektor seperti Docker, Linux (dalam server maupun SBC), dan mikrokontroller (via Serial communication) sehingga dapat membuat sistem yang sangat canggih dengan git sebagai salah satu jembatannya.
 
+## Daerah Kerja Git
