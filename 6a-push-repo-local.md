@@ -9,6 +9,6 @@ Sebelum melakukan `push`, alamat server harus didaftarkan terlebih dahulu ke dal
 # 1. Daftarkan alamat server (hanya dilakukan sekali di awal proyek)
 git remote add origin https://github.com/username/nama-repo.git
 
-# 2. Kirim data dan atur jalur utama (upstream)
+# 3. Kirim data dan atur jalur utama (upstream)
 git push -u origin main
 ```
