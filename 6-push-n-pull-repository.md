@@ -30,7 +30,7 @@ git push -u origin main
 | **`origin`**   | Nama panggilan (alias) untuk alamat URL server tujuan.                                                            |
 | **`main`**     | Nama cabang (_branch_) utama tempat data akan disimpan di server.                                                 |
 
-💡 Jika repo yang dibuat bukan repo yang dibuat dari GitHub, melainkan git local (dari `git init`) [klik di sini untuk step-by-stepnya](6a-push-repo-local)
+💡 Jika repo yang dibuat bukan repo yang dibuat dari GitHub, melainkan git local (dari `git init`) [klik di sini untuk step-by-stepnya](6a-push-repo-local.md)
 
 > 📝 **Catatan:** Git versi terbaru menggunakan `main` sebagai branch utama. Jika tertulis `master` di terminal, ubah perintahnya menjadi `git push -u origin master`
 
