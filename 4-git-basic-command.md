@@ -12,7 +12,7 @@ Setelah memahami teori fundamental Git, saatnya langsung terjun ke mempraktikkan
 | `git log --oneline`   | Melihat riwayat penyimpanan (commit) secara ringkas.                      | Repository         |
 
 ---
-### Praktik 1: Membuat Directory Git Pertama
+###  Membuat Directory Git Pertama
 
 Berikut adalah urutan perintah untuk memulai proyek dari nol hingga tersimpan di dalam sistem Git:
 
