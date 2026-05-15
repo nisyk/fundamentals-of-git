@@ -45,6 +45,8 @@ Tarik semua hasil kerja dari branch `fitur-baru` ke branch `main`
 git merge fitur-baru
 ```
 
+> 💡 **Trivia:** `git branch` sangat umum dilakukan ketika ingin meng-backup suatu repository agar tidak mengalami perubahan yang ada di branch main
+
 ---
 
 ### Git Rebase (Penyederhanaan History)

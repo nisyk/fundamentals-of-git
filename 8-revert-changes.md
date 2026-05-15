@@ -1,3 +1,5 @@
+#### < [Branching dasar](7-basic-branching.md)
+
 # Mengembalikan (Revert) Perubahan di Git
 Dalam pekerjaan, terkadang kesalahan bisa saja terjadi. Namun, semakin profesional skala pekerjaan, semakin kecil toleransi terhadap kesalahan. Oleh karena itu, sangat penting untuk mempelajari cara mengembalikan pekerjaan yang kacau menjadi kembali seperti semula. 
 
