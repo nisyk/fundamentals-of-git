@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8-revert-changes.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8-revert-changes"
+              "title": "README"
             }
           },
           {
@@ -228,17 +228,17 @@
   },
   "active": "46253944aa01b440",
   "lastOpenFiles": [
+    "1-fundamental-git.md",
+    "README.md",
+    "8-revert-changes.md",
     "7-basic-branching.md",
     "6-push-n-pull-repository.md",
     "6a-push-repo-local.md",
-    "8-revert-changes.md",
     "3-connect-account.md",
     "4-git-basic-command.md",
-    "1-fundamental-git.md",
     "1a-git-installation.md",
     "2-unix-command.md",
     "5-making-github-repo.md",
-    "README.md",
     "assets/fig-ag2.jpg",
     "assets/fig-ag1.jpeg",
     "assets/git_branches-18fb922827a059e5976456f620c41701.jpeg",

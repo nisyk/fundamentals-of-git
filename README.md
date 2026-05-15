@@ -22,4 +22,11 @@ Git CLI (Command Line Interface) adalah cara menjalankan perintah git dengan men
 
 **Kesimpulannya:** Git CLI menawarkan kompabilitas dan kontrol yang sangat fleksibel (dapat bekerja di semua provider Git), namun memiliki kurva belajar yang sulit dibandingkan aplikasi GitHub Desktop.
 
+----
+
+### Sumber 
+**Untuk informasi lebih mendalam dan mendasar, kunjungi:**
+
+- [Pro Git Book; Scott Chacon & Ben Straub](https://git-scm.com/book/en/v2)
+- [HowToGeek: Introduction to Git](https://www.howtogeek.com/beginning-git-what-it-is-and-why-its-crucial/)
 #### > [Fundamental Git](1-fundamental-git.md)
