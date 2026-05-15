@@ -55,9 +55,12 @@ Berbeda dengan `merge` yang menciptakan satu _commit_ baru sebagai jembatan peng
 
 ![Gambar2](assets/fig-ag2.jpg)
 -> Gambar 2: Perbedaan antara Merge dan Rebase
+git push -u origin main
 
 | `git merge`                                                                                                    | `git rebase`                                                                                                                                                                                                     |
 | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Menjaga sejarah apa adanya (terlihat kapan cabang dibuat dan kapan digabungkan). Cocok untuk arsip yang jujur. | "Menulis ulang" sejarah agar terlihat seolah-olah semua pengerjaan dilakukan secara berurutan dalam satu garis lurus. Sangat disukai oleh tim profesional yang mengutamakan kerapihan riwayat (_clean history_). |
 
 > **⚠️ Catatan Penting:** Sangat tidak disarankan melakukan `git rebase` pada branch yang sudah di-push ke server (GitHub/VPS) dan sedang dikerjakan oleh anggota tim lain. Hal ini dikarenakan rebase mengubah *Commit History* yang dapat menyebabkan **conflict** dan **duplicate commit** saat tim lain melakukan `git pull`
+
+#### > [Mengembalikan (Revert) Perubahan di Git](8-revert-changes.md)

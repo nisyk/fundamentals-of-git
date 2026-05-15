@@ -5,10 +5,14 @@ Setelah perubahan tersimpan di repositori lokal melalui _commit_, langkah selanj
 
 Sebelum melakukan `push`, alamat server harus didaftarkan terlebih dahulu ke dalam sistem lokal.
 
+1. Daftarkan alamat server (hanya dilakukan sekali di awal proyek)
 ```bash
-# 1. Daftarkan alamat server (hanya dilakukan sekali di awal proyek)
 git remote add origin https://github.com/username/nama-repo.git
+```
 
-# 3. Kirim data dan atur jalur utama (upstream)
+2. Buat file baru, lalu lakukan **`git add`** dan **`git commit`**, *[Klik untuk intruksi selengkapnya](4-git-basic-command.md)*
+
+3. **Upload repository yang sudah dicommit ke repository GitHub**
+```bash
 git push -u origin main
 ```
