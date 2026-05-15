@@ -39,6 +39,7 @@ Jika ada perubahan terbaru dari GitHub yang tidak dilakukan dari local yang bias
 - Mengedit dari website GitHub/server.
 - Mengedit dari komputer lain, lalu push ke GitHub/server.
 - Anggota tim lain melakukan perubahan di repository GitHub/server.
+
 Anda tidak dapat melakukan `push`, karena git mendeteksi ada perbedaan antara repository local anda dengan repository sehingga diperlukan menggunakan `pull` untuk sinkronisasi repository local dengan repository GitHub/server.
 
 Untuk sinkronisasi repository, cukup mengetikkan command ini
