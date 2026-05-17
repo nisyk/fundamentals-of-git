@@ -29,4 +29,10 @@ Git CLI (Command Line Interface) adalah cara menjalankan perintah git dengan men
 
 - [Pro Git Book; Scott Chacon & Ben Straub](https://git-scm.com/book/en/v2)
 - [HowToGeek: Introduction to Git](https://www.howtogeek.com/beginning-git-what-it-is-and-why-its-crucial/)
+
 #### > [Fundamental Git](1-fundamental-git.md)
+
+
+---
+
+Made by curious with 🌆 NISY. 
